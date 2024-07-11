@@ -1,13 +1,12 @@
+import { addtocart } from "./addtocart";
 import { homequantitytoggle  } from "./homequantitytoggle";
 
 const ProductContainer = document.querySelector("#productContainer");
 const productTemplate = document.querySelector("#productTemplate");
-export const showProductcontainer = (products) =>
-{
-    if (!products)
-    {
+export const showProductcontainer = (products) => {
+    if (!products) {
         return false;
-    } 
+    }
     products.forEach((elem) => {
         // console.log(elem);
         const { id, name, category, price, stock, description, image } = elem;
@@ -25,15 +24,15 @@ export const showProductcontainer = (products) =>
         productclone.querySelector(".productStock").textContent = stock;
 
 
-        productclone.querySelector(".stockElement"). addEventListener("click", (event) =>
-        {
+        productclone.querySelector(".stockElement").addEventListener("click", (event) => {
             homequantitytoggle(event, id, stock);
-        })
+        });
 
+        productclone.querySelector(".add-to-cart-button").addEventListener("click", (event) => {
+            addtocart(event, id, stock);
+
+        });
         ProductContainer.append(productclone);
+    });
 
-
-    }     
-    );
-
-}
+};

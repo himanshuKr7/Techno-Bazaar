@@ -844,7 +844,7 @@ footer {
 #cartValue {
   background-color: var(--buttonColor);
   color: #fff;
-  padding: 1rem 2rem;
+  padding: 1.2rem 1.5rem;
 }
 
 .add-to-cart-button,
@@ -857,7 +857,7 @@ footer {
   padding: 1rem 2.8rem;
   background-color: var(--buttonColor);
   color: #fff;
-  font-size: 1.6rem;
+  font-size: 1.25rem;
   /* margin-top: 1.2rem; */
 
   &:hover {
@@ -869,7 +869,9 @@ footer {
   }
 
   .fa-cart-shopping {
-    padding-right: 1rem;
+    padding-right: 1.5rem;
+    display: flex;
+    gap: 10px;
   }
 }
 
