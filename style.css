@@ -15,15 +15,15 @@
   -moz-osx-font-smoothing: grayscale;
 
   --buttonColor: #2a2c30;
-  --secondaryColor: #4b4f56;
-  --borderColor: #e3eaf0;
-  --backgroundColor: #f7f7f7;
-  --backgroundSecondary: #fefefe;
-  --textColor: #1e1f23;
-  --anchorColor: #535bf2;
-  --main-color: #535bf2;
-  --supporting-color: #ebf3fe;
-  --glow-color: hsl(186, 91%, 4%);
+    --secondaryColor: #4b4f56;
+    --borderColor: #e3eaf0;
+    --backgroundColor: #f7f7f7;
+    --backgroundSecondary: #fefefe;
+    --textColor: #1e1f23;
+    --anchorColor: #535bf2;
+    --main-color: #535bf2;
+    --supporting-color: #ebf3fe;
+    --glow-color: hsl(186, 91%, 4%);
 }
 
 html {
@@ -50,7 +50,7 @@ h6 {
 }
 
 h1 {
-  font-size:2.25rem;
+  font-size: 2.25rem;
 }
 
 h2 {
@@ -241,7 +241,7 @@ textarea:focus-visible {
 }
 
 .section-navbar img {
-  width: 25%;
+  width: 55%;
 }
 
 .section-navbar .navbar ul {
@@ -287,14 +287,9 @@ main {
   position: relative;
   background-color: #d9e9ff;
 
-  background-image: linear-gradient(to top right,
-      #3d86fa,
-      #4484fb,
-      #679eff,
-      #b3d2ff,
-      #ebf3fe);
+  background-color: #8BC6EC;
+  background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
 }
-
 .custom-shape-divider-bottom-1696038172 {
   position: absolute;
   bottom: 0;
@@ -340,7 +335,7 @@ main .section-hero {
   }
 
   & .hero-heading {
-    font-size:5rem;
+    font-size: 5rem;
     line-height: 1.5;
     initial-letter: -0.2rem;
     text-transform: capitalize;
@@ -649,7 +644,7 @@ textarea {
 /***** Start Footer Section *****/
 footer {
   width: 100%;
-  background: var(--buttonColor);
+  background:var(--buttonColor);
   color: var(--backgroundColor);
   border-top-left-radius: 0.5rem;
   border-top-right-radius: 0.5rem;
@@ -658,7 +653,7 @@ footer {
 
 .footer-container .content_1 img {
   height: auto;
-  width: 15rem;
+  width: 30rem;
 }
 
 .footer-container {

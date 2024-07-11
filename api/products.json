@@ -11,16 +11,6 @@
   },
   {
     "id": 2,
-    "name": "Smartphone",
-    "category": "Mobiles",
-    "brand": "TechGadget",
-    "price": 499.99,
-    "stock": 100,
-    "image": "../images/iphone.png",
-    "description": "Feature-rich smartphone with a 6.2-inch screen, 12MP dual camera, 128GB storage, and a 4000mAh battery."
-  },
-  {
-    "id": 3,
     "name": "Wireless Headphones",
     "category": "Audio",
     "brand": "SoundBeats",
@@ -28,6 +18,16 @@
     "stock": 30,
     "image": "../images/headphone.png",
     "description": "High-quality wireless headphones with over-ear design, 20 hours of battery life, and a sleek black color."
+  },
+    {
+    "id": 3,
+    "name": "Television",
+    "category": "Video",
+    "brand": "Samsung",
+    "price": 199.99,
+    "stock": 20,
+    "image": "../images/tv.png",
+    "description": "Smartwatch with a 1.3-inch AMOLED display, water-resistant design, fitness tracking features, and a stylish silver color."
   },
   {
     "id": 4,
@@ -39,8 +39,18 @@
     "image": "../images/watch.png",
     "description": "Smartwatch with a 1.3-inch AMOLED display, water-resistant design, fitness tracking features, and a stylish silver color."
   },
-  {
+    {
     "id": 5,
+    "name": "Smartphone",
+    "category": "Mobiles",
+    "brand": "TechGadget",
+    "price": 499.99,
+    "stock": 100,
+    "image": "../images/iphone.png",
+    "description": "Feature-rich smartphone with a 6.2-inch screen, 12MP dual camera, 128GB storage, and a 4000mAh battery."
+  },
+  {
+    "id": 6,
     "name": "Speakers",
     "category": "Audio",
     "brand": "SoundBeats",
@@ -49,14 +59,36 @@
     "image": "../images/speakers.png",
     "description": "High-quality wireless headphones with over-ear design, 20 hours of battery life, and a sleek black color."
   },
+   {
+    "id": 7,
+    "name": "GoPro",
+    "category": "Camera",
+    "brand": "GoPro",
+    "price": 21249.99,
+    "stock": 30,
+    "image": "../images/webcam.jpg",
+    "description": "GoPro HERO10 Black - Waterproof Action Camera with Front LCD and Touch Rear Screens, 5.3K60 Ultra HD Video, Optical 1X and Digital 4X 23MP Photos"
+  },
   {
-    "id": 6,
-    "name": "Television",
-    "category": "Video",
-    "brand": "Samsung",
-    "price": 199.99,
-    "stock": 20,
-    "image": "../images/tv.png",
-    "description": "Smartwatch with a 1.3-inch AMOLED display, water-resistant design, fitness tracking features, and a stylish silver color."
+    "id": 8,
+    "name": "TabletStand",
+    "category": "Acessories",
+    "brand": "typecase",
+    "price": 2249.99,
+    "stock": 50,
+    "image": "../images/tabletStand.jpg",
+    "description": "typecase Edge Magic Style Keyboard for iPad Air 11 (M2)-2024, Air 5th/4th Gen & iPad Pro 11 (4th/3rd/2nd/1st Gen), Click Anywhere Trackpad, 11-Color Backlit, Cantilever, Pencil Dock- Gr Black"
+  },
+  {
+    "id": 9,
+    "name": "USB Connector",
+    "category": "Acessories",
+    "brand": "Lenovo",
+    "price": 749.99,
+    "stock": 50,
+    "image": "../images/Connector.jpg",
+    "description": "Lemorele USB C Docking Station for Laptop, 10 in 1 Triple Display Monitors Adapter with 4K Dual HDMI, 1080P VGA, 3*USB3.0/2.0, TF/SD, 3.5mm Audio, 100W PD, for MacBook, HP, Dell, Lenovo, etc."
   }
+  
+
 ]
