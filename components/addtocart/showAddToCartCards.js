@@ -1,4 +1,4 @@
-import products from "./api/products.json"
+import products from "../../api/products.json"
 import { fetchQuantityFromcart } from "./fetchQuantityFromcart";
 import { getcardsfrlclstrg } from "./getcardsfrlclstrg";
 import { incrementDecrment } from "./incrementDecrement";

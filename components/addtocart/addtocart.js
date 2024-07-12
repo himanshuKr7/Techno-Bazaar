@@ -1,5 +1,5 @@
 import { getcardsfrlclstrg, updateCartValue } from "./getcardsfrlclstrg";
-import { showToast } from "./showToast";
+import { showToast } from "../../showToast";
 
 getcardsfrlclstrg();
 export const addtocart = (event, id, stock) => {

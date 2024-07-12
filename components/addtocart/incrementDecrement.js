@@ -3,14 +3,7 @@ import { updatecartproductstotal } from "./updatecartproductstotal";
 
 export const incrementDecrment = ( event,id, stock, price) => {
 
-    const selector = `#card${id}`;
-    console.log(`Selector: ${selector}`);
-
-    const currentCard = document.querySelector(selector);
-    if (!currentCard) {
-        console.error(`Card with id #card${id} not found`);
-        return;
-    }
+    const currentCard = document.querySelector(`#card${id}`);
     
     const productQuantity = currentCard.querySelector(".productQuantity");
     const productPrice = currentCard.querySelector(".productPrice");
