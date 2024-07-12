@@ -21,9 +21,9 @@ Welcome to Techno Bazaar, an e-commerce website dedicated to the latest gadgets.
   Products Page
   ![image](https://github.com/user-attachments/assets/bcb019a8-a75a-4aaa-8574-87666327bcc3) 
   ![image](https://github.com/user-attachments/assets/41ca5497-bb1d-4dab-94b1-c358e87d4a27)
-
   
   Contact Page
+  
   ![image](https://github.com/user-attachments/assets/8d4e50b9-9d78-4292-84ae-5a04a232cf6e)
 
   AddToCart Page
