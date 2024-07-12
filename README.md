@@ -1,5 +1,5 @@
 
-# Techno Bazaar
+# Techno Bazaar (https://techno-bazaar.netlify.app/)
 
 Welcome to Techno Bazaar, an e-commerce website dedicated to the latest gadgets. This project showcases a simple e-commerce platform with add-to-cart functionality. The main goal is to provide users with an intuitive interface to browse and add gadgets to their cart, with all data stored locally using the browser's localStorage.
 
