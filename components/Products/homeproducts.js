@@ -10,7 +10,7 @@ export const showProductcontainer = (products) => {
     products.forEach((elem) => {
         // console.log(elem);
         const { id, name, category, price, stock, description, image } = elem;
-
+       
         const productclone = document.importNode(productTemplate.content, true);
         // console.log(productclone);
         productclone.querySelector("#cardValue").setAttribute("id", `card${id}`);

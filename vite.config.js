@@ -12,5 +12,5 @@ export default defineConfig({
         addToCart: resolve(__dirname, "addToCart.html"),
       },
     },
-  },
+  }, 
 });
